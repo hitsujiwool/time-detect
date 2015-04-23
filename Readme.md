@@ -3,7 +3,7 @@
 ## Example
 
 ```javascript
-parse = require('time-detect');
+var parse = require('time-detect');
 
 parse('Please call me at 12:34');
 parse('I was born at 2015/4/23 12:34:15');
