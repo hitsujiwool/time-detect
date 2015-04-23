@@ -1,0 +1,32 @@
+{
+  "name": "time-detect",
+  "version": "0.1.0",
+  "description": "extract time from string",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && mocha --require ./babel_hook test",
+    "build": "babel -o index.js src",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hitsujiwool/time-detect"
+  },
+  "keywords": [
+    "time",
+    "date"
+  ],
+  "author": "Ryo Murayama <utatanenohibi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hitsujiwool/time-detect/issues"
+  },
+  "homepage": "https://github.com/hitsujiwool/time-detect",
+  "devDependencies": {
+    "babel": "^5.1.11",
+    "babel-core": "^5.1.11",
+    "babel-plugin-espower": "^0.2.1",
+    "mocha": "^2.2.4",
+    "power-assert": "^0.11.0"
+  }
+}
