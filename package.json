@@ -2,6 +2,9 @@
   "name": "time-detect",
   "version": "0.1.0",
   "description": "extract time from string",
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "npm run build && mocha --require ./babel_hook test",
